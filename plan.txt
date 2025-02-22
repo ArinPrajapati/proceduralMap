@@ -1,0 +1,13 @@
+1. Generate a 2d heightmap using Perlin Noise 
+2 . Convert height values into terrain types (water, grass ,ets);
+Water (0.0 - 0.3) → Deep water, lakes, ocean
+Sand/Beach (0.3 - 0.4) → Shorelines
+Grasslands (0.4 - 0.6) → Plains, forests
+Hills (0.6 - 0.8) → Slightly elevated areas
+Mountains (0.8 - 1.0) → High peaks
+
+3. add biomes (forest , mountains ,deserts).
+4. Implement river generation (flow from high to low terrain).
+5 . Add village , cites (based on terrain features).
+6. create roads connecting villages.
+7.display the map visually using matplotlib or pygamesh
